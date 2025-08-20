@@ -131,9 +131,5 @@ async def run():
 
 asyncio.run(run())
 
-# === requirements.txt ===
-discord.py==2.3.2
-aiohttp==3.9.5
-
 # === Procfile ===
 worker: python bot.py
