@@ -130,6 +130,3 @@ async def run():
     await bot.start(os.getenv("TOKEN"))
 
 asyncio.run(run())
-
-# === Procfile ===
-worker: python bot.py
